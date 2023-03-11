@@ -16,6 +16,7 @@ export default function Skills({ data }: { data: any }) {
     <div className="flex">
       {["soft", "technical"].map((el) => (
         <button
+          key={el}
           type="button"
           className={`btn--skills ${setBg(el)} ${setTextAlign(el)}`}
           onClick={() => setActiveTab(el)}
