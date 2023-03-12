@@ -7,7 +7,7 @@ export default function Skills({ data }: { data: any }) {
   const [activeTab, setActiveTab] = useState("soft");
 
   const setBg = (active: any) =>
-    activeTab === active ? "bg-yellow" : "bg-grey";
+    activeTab === active ? "bg-green" : "bg-grey";
 
   const setTextAlign = (tab: any) =>
     tab === "soft" ? "text-left" : "text-right";
@@ -27,25 +27,24 @@ export default function Skills({ data }: { data: any }) {
     </div>
   );
 
-  const skills = (
-    <ul
-      className={`flex flex-row flex-wrap content-start list-none gap-2 py-4 ${
-        activeTab === "soft" ? "justify-start" : "justify-end"
-      }`}
-    >
-      {data[activeTab].map(({ icon, text }: { icon: any; text: string }) => (
-        <li key={text} className="skills">
-          <span>{icon}</span> {text}
-        </li>
-      ))}
-    </ul>
-  );
   return (
     <>
       <section>
         <div>
           {tabs}
-          {skills}
+          <ul
+            className={`flex flex-row flex-wrap content-start list-none gap-2 py-4 ${
+              activeTab === "soft" ? "justify-start" : "justify-end"
+            }`}
+          >
+            {data[activeTab].map(
+              ({ icon, text }: { icon: any; text: string }) => (
+                <li key={text} className="skills">
+                  <span>{icon}</span> {text}
+                </li>
+              )
+            )}
+          </ul>
         </div>
       </section>
     </>

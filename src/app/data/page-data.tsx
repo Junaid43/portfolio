@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Muhammad Junaid",
-  role: "Software Engineer",
+  role: "Senior WordPress Developer",
   education: [
     "Bahauddin Zakariya University Multan 2014-2018",
     "Punjab Group of College Lahore 2012-2014",
