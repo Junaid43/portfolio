@@ -4,8 +4,8 @@ import "./globals.css";
 import { personalData } from "../app/data/page-data";
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Code is my Passion",
+  title: "Resume",
+  description: "WordPress Developer",
 };
 
 export default function RootLayout({
