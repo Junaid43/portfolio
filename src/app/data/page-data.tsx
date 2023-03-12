@@ -58,3 +58,18 @@ export const professionalData = {
     },
   ],
 };
+
+export const certification = {
+  maintitle: "Certification",
+  details: [
+    {
+      title: "WordPress",
+      location: "E-rozgar",
+    },
+
+    {
+      title: "SEO",
+      location: "DigiSkills",
+    },
+  ],
+};

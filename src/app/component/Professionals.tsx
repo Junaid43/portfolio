@@ -18,7 +18,7 @@ export default function Professionals({ data }: { data: any }) {
               current: boolean;
             }) => (
               <div key={role} className="flex flex-col rounded-lg ">
-                <span className={`h-2 ${current ? "bg-green" : "bg-grey"}`} />
+                <span className={`h-2 ${current ? "bg-blue" : "bg-grey"}`} />
                 <div className="bg-grey-light p-6 drop-shadow-md">
                   <h3>{role}</h3>
                   <p>{description}</p>
