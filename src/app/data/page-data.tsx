@@ -53,8 +53,7 @@ export const professionalData = {
 
     {
       role: "WordPress Developer (Aug 2020 -Nov 2020)",
-      description:
-        "Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+      description: "Designing and develop the website front-end ",
       current: false,
     },
   ],
