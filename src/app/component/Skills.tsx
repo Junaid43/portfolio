@@ -6,7 +6,8 @@ export default function Skills({ data }: { data: any }) {
 
   const [activeTab, setActiveTab] = useState("soft");
 
-  const setBg = (active: any) => (activeTab === active ? "bg-blue" : "bg-grey");
+  const setBg = (active: any) =>
+    activeTab === active ? "bg-black" : "bg-blue";
 
   const setTextAlign = (tab: any) =>
     tab === "soft" ? "text-left" : "text-right";
@@ -28,7 +29,7 @@ export default function Skills({ data }: { data: any }) {
 
   return (
     <>
-      <section>
+      <section id="skills">
         <div>
           {tabs}
           <ul

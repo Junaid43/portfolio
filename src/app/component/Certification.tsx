@@ -6,14 +6,14 @@ export default function Certification({ data }: { data: any }) {
   const id = useId();
   return (
     <>
-      <section>
+      <section id="certificate">
         <h2 className="pb-2 bold font-bold uppercase">{maintitle}</h2>
 
         {details.map(
           ({ title, location }: { title: string; location: string }) => (
             <div
               key={`${id}`}
-              className="bg-grey px-6 py-6 border-t-[6px] border-blue mb-6"
+              className="bg-grey px-6 py-6 border-t-[6px] border-balck mb-6"
             >
               <li
                 key={`${id}_${title}`}

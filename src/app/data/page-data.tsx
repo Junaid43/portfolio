@@ -6,7 +6,7 @@ export const personalData = {
     "Punjab Group of College Lahore 2012-2014",
   ],
   contactLinks: [
-    "mailto:muhammad.junaid434@gmail.com",
+    "muhammad.junaid434@gmail.com",
     "https://www.linkedin.com/in/wordpress-developer-seo-expert",
     "https://github.com/Junaid43",
     "",
@@ -70,6 +70,29 @@ export const certification = {
     {
       title: "SEO",
       location: "DigiSkills",
+    },
+  ],
+};
+
+export const projects = {
+  title: "Projects",
+  details: [
+    {
+      project_id: 1,
+      image: "/charity-website-portfolio.jpg",
+      project_title: "E-commerce Website",
+      description:
+        "Design a E-commerce based website providing service related to dog",
+      excerpt: "Design a E-commerce based website",
+    },
+    {
+      project_id: 2,
+      image: "/consultancy-website-portfolio.jpg",
+      project_title: "Digital Marketing WordPress",
+      description:
+        "Design a Digital Marketing WordPress based website providing service related to SEO, WordPress",
+      excerpt:
+        "Design a Digital Marketing WordPress based website providing service related to SEO, WordPress",
     },
   ],
 };
